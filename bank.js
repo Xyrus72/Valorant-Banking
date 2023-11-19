@@ -12,10 +12,10 @@ const pass=passField.value;
 
 
 if (email==='kotitaka@gmail.com' && pass==='pocket-khali' ){
-    console.log('Valid User')
+    window.location.href='http://127.0.0.1:5500/inside.html'
 
 }
 else{
-    console.log('Invalid User')
+    alert('Trash give correct email and password')
 }
 })
