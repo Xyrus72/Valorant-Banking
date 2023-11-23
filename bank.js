@@ -11,7 +11,7 @@ const passField=document.getElementById('user-password');
 const pass=passField.value;
 
 
-if (email==='kotitaka@gmail.com' && pass==='pocket-khali' ){
+if (email==='AmiKoreanJett' && pass==='khali ult pari na' ){
     window.location.href='http://127.0.0.1:5500/inside.html'
 
 }
