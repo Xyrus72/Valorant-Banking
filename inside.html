@@ -20,16 +20,17 @@
                 </div>
                 <div class="bg-slate-700 p-8 rounded-xl">
                     <h4 class="text-2xl"> Withdraw</h4>
-                    <h2 class="text-5xl">$00</h2>
+                    <h2 class="text-5xl">$<span id="withdraw-total">00</span></h2>
                 </div>
                 <div class="bg-slate-700 p-8 rounded-xl">
                     <h4 class="text-2xl"> Balance</h4>
-                    <h2 class="text-5xl">$1000</h2>
+                    <h2 class="text-5xl">$<span id="balance-total">1000</span></h2>
                 </div>
                 
             </div>
 
         </section>
+        
         <!--Deposit and Withdraw-->
         <section class="mt-7">
             <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto  ">
@@ -44,7 +45,7 @@
                 <div class="bg-slate-600 p-8 rounded-xl">
                     <h4 class="text-2xl text-white  ">Please Withdraw</h4>
                     <div>
-                        <input class="w-4/6 block mb-4 px-3 py-2" type="text" name="" id="user-email" placeholder="$ Amount You want to Withdraw"> 
+                        <input class="w-4/6 block mb-4 px-3 py-2" type="text" name="" id="withdraw-field" placeholder="$ Amount You want to Withdraw"> 
                         
                         <button id="btn-withdraw" class="bg-cyan-500 px-8 py-2 text-white font-medium rounded-lg hover:bg-cyan-600">Withdraw</button>
                     </div>
