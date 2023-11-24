@@ -12,3 +12,5 @@ Once logged in, you gain access to a variety of financial services, including de
 
 username : AmiKoreanJett
 password: khali ult pari na
+
+live server link: https://xyrus72.github.io/Online-Banking/
