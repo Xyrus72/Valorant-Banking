@@ -1,4 +1,4 @@
-#RIOT Online-Banking
+#Radianite Points-Banking
 
 This platform offers a secure and user-friendly experience for managing your financial transactions. To access the features provided, follow these steps:
 
